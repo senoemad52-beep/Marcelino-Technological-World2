@@ -1,0 +1,376 @@
+{
+  "models": [
+    {
+      "id": "human_full",
+      "file": "models/human_full.glb",
+      "title": {
+        "ar": "جسم الإنسان مفصل",
+        "en": "Human (full)"
+      },
+      "keywords": [
+        "human",
+        "جسم",
+        "anatomy",
+        "body"
+      ],
+      "category": "human",
+      "options": [
+        {
+          "ar": "من الخارج",
+          "en": "Exterior"
+        },
+        {
+          "ar": "من الداخل",
+          "en": "Interior"
+        },
+        {
+          "ar": "الهيكل العظمي",
+          "en": "Skeleton"
+        },
+        {
+          "ar": "الأعضاء",
+          "en": "Organs"
+        }
+      ]
+    },
+    {
+      "id": "elephant",
+      "file": "models/elephant.glb",
+      "title": {
+        "ar": "فيل",
+        "en": "Elephant"
+      },
+      "keywords": [
+        "elephant",
+        "animal",
+        "حيوان"
+      ],
+      "category": "animals",
+      "options": [
+        {
+          "ar": "شكل خارجي",
+          "en": "Exterior"
+        }
+      ]
+    },
+    {
+      "id": "oak_tree",
+      "file": "models/oak_tree.glb",
+      "title": {
+        "ar": "شجرة بلوط",
+        "en": "Oak tree"
+      },
+      "keywords": [
+        "tree",
+        "plant",
+        "شجرة",
+        "نبات"
+      ],
+      "category": "plants",
+      "options": [
+        {
+          "ar": "الأوراق",
+          "en": "Leaves"
+        },
+        {
+          "ar": "الجذع",
+          "en": "Trunk"
+        },
+        {
+          "ar": "الجذور",
+          "en": "Roots"
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "file": "models/earth.glb",
+      "title": {
+        "ar": "الأرض",
+        "en": "Earth"
+      },
+      "keywords": [
+        "earth",
+        "planet",
+        "كوكب"
+      ],
+      "category": "space",
+      "options": [
+        {
+          "ar": "السطح",
+          "en": "Surface"
+        },
+        {
+          "ar": "الالطبقات",
+          "en": "Layers"
+        }
+      ]
+    },
+    {
+      "id": "moon",
+      "file": "models/moon.glb",
+      "title": {
+        "ar": "القمر",
+        "en": "Moon"
+      },
+      "keywords": [
+        "moon",
+        "lunar",
+        "قمر"
+      ],
+      "category": "space",
+      "options": [
+        {
+          "ar": "المظهر الخارجي",
+          "en": "Exterior"
+        }
+      ]
+    },
+    {
+      "id": "car_sedan",
+      "file": "models/car_sedan.glb",
+      "title": {
+        "ar": "سيارة سيدان",
+        "en": "Sedan car"
+      },
+      "keywords": [
+        "car",
+        "vehicle",
+        "سيارة"
+      ],
+      "category": "vehicles",
+      "options": [
+        {
+          "ar": "خارجي",
+          "en": "Exterior"
+        },
+        {
+          "ar": "محرك",
+          "en": "Engine"
+        }
+      ]
+    },
+    {
+      "id": "paris_tower",
+      "file": "models/paris_tower.glb",
+      "title": {
+        "ar": "برج نموذجي",
+        "en": "Tower (architectural)"
+      },
+      "keywords": [
+        "tower",
+        "building",
+        "برج"
+      ],
+      "category": "buildings",
+      "options": [
+        {
+          "ar": "مظهر خارجي",
+          "en": "Exterior"
+        }
+      ]
+    },
+    {
+      "id": "laptop_model",
+      "file": "models/laptop.glb",
+      "title": {
+        "ar": "حاسوب محمول",
+        "en": "Laptop"
+      },
+      "keywords": [
+        "laptop",
+        "electronics",
+        "حاسوب"
+      ],
+      "category": "electronics",
+      "options": [
+        {
+          "ar": "خارجي",
+          "en": "Exterior"
+        },
+        {
+          "ar": "لوحة مفاتيح",
+          "en": "Keyboard"
+        }
+      ]
+    },
+    {
+      "id": "coral",
+      "file": "models/coral.glb",
+      "title": {
+        "ar": "مرجان بحري",
+        "en": "Coral"
+      },
+      "keywords": [
+        "coral",
+        "marine",
+        "بحر"
+      ],
+      "category": "marine",
+      "options": [
+        {
+          "ar": "الشكل الخارجي",
+          "en": "Exterior"
+        }
+      ]
+    },
+    {
+      "id": "diamond",
+      "file": "models/diamond.glb",
+      "title": {
+        "ar": "ألماس",
+        "en": "Diamond"
+      },
+      "keywords": [
+        "diamond",
+        "mineral",
+        "معدن"
+      ],
+      "category": "minerals",
+      "options": [
+        {
+          "ar": "البلورة",
+          "en": "Crystal structure"
+        }
+      ]
+    }
+  ],
+  "parts": {
+    "Heart": {
+      "name": {
+        "ar": "القلب",
+        "en": "Heart"
+      },
+      "desc": {
+        "ar": "عضو يضخ الدم في الجسم ويزوّده بالأكسجين والمواد المغذية.",
+        "en": "Organ that pumps blood and supplies oxygen and nutrients."
+      },
+      "aliases": [
+        "heart",
+        "قلب"
+      ]
+    },
+    "Lung": {
+      "name": {
+        "ar": "الرئة",
+        "en": "Lung"
+      },
+      "desc": {
+        "ar": "جهاز تنفّسي يسمح بتبادل الأكسجين وثاني أكسيد الكربون.",
+        "en": "Respiratory organ for oxygen and carbon dioxide exchange."
+      },
+      "aliases": [
+        "lung",
+        "رئة",
+        "رئتين"
+      ]
+    },
+    "Spine": {
+      "name": {
+        "ar": "العمود الفقري",
+        "en": "Spine"
+      },
+      "desc": {
+        "ar": "الدعامة العظمية التي تحافظ على استقامة الجسم وتحمي الحبل الشوكي.",
+        "en": "Bony column that supports the body and protects the spinal cord."
+      },
+      "aliases": [
+        "spine",
+        "عمود",
+        "العمود الفقري"
+      ]
+    },
+    "Leaves": {
+      "name": {
+        "ar": "الأوراق",
+        "en": "Leaves"
+      },
+      "desc": {
+        "ar": "أجزاء النبات التي تقوم بعملية التمثيل الضوئي وتحويل ضوء الشمس إلى طاقة.",
+        "en": "Plant parts that perform photosynthesis and convert sunlight into energy."
+      },
+      "aliases": [
+        "leaves",
+        "أوراق"
+      ]
+    },
+    "Trunk": {
+      "name": {
+        "ar": "الجذع",
+        "en": "Trunk"
+      },
+      "desc": {
+        "ar": "الساق الخشبية الرئيسية للشجرة التي تحمل الفروع واللحاء.",
+        "en": "Main woody stem of a tree that supports branches and bark."
+      },
+      "aliases": [
+        "trunk",
+        "جذع"
+      ]
+    },
+    "Engine": {
+      "name": {
+        "ar": "المحرّك",
+        "en": "Engine"
+      },
+      "desc": {
+        "ar": "جزء يوفر الطاقة الميكانيكية لتحريك السيارة أو الآلة.",
+        "en": "Part that provides mechanical power to move a vehicle or machine."
+      },
+      "aliases": [
+        "engine",
+        "محرك"
+      ]
+    },
+    "Surface": {
+      "name": {
+        "ar": "السطح",
+        "en": "Surface"
+      },
+      "desc": {
+        "ar": "الطبقة الخارجية للشيء أو الكوكب.",
+        "en": "Outer layer of an object or planet."
+      },
+      "aliases": [
+        "surface",
+        "سطح"
+      ]
+    },
+    "Crystal": {
+      "name": {
+        "ar": "البنية البلورية",
+        "en": "Crystal structure"
+      },
+      "desc": {
+        "ar": "نمط ترتيب ذرات مادة متبلورة.",
+        "en": "Arrangement pattern of atoms in a crystalline solid."
+      },
+      "aliases": [
+        "crystal",
+        "بلورة"
+      ]
+    }
+  },
+  "categories": [
+    "human",
+    "animals",
+    "plants",
+    "space",
+    "cities",
+    "vehicles",
+    "buildings",
+    "tools",
+    "furniture",
+    "minerals",
+    "marine",
+    "electronics",
+    "food",
+    "sports",
+    "clothing",
+    "artifacts",
+    "chemistry",
+    "geology",
+    "weather",
+    "biomes"
+  ]
+}
